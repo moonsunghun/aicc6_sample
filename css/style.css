@@ -118,6 +118,21 @@ header .menu{
     width : 100%;
 }
 
+.side-menu
+{
+    width: 50%;
+    background: #222;
+    z-index: 9999;
+    position: fixed;
+    left:50%
+}
+
+.side-menu li
+{
+    background: #FFFFFF;
+    
+}
+
 
 /* Media query */
 @media screen and (max-width:720px)
